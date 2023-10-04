@@ -1,0 +1,23 @@
+.nav-item.dropdown:hover .dropdown-menu a.dropdown-item {
+  background-color: #007bff;
+  color: white;
+}
+
+.nav-item.dropdown:hover .nav-link {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Horizontal layout for the dropdown menu */
+.dropdown-menu.show {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* Adjust spacing between dropdown items */
+.nav-item.dropdown:hover .dropdown-menu a.dropdown-item {
+  margin-right: 10px; /* Adjust the margin as needed */
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}/*# sourceMappingURL=styles.css.map */
