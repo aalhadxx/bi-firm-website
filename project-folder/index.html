@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Your Website</title>
-        <!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <!-- Include Bootstrap JavaScript, jQuery, and Popper.js from CDNs -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <!-- Include your custom styles -->
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Your Website</title>
+    <!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include Bootstrap JavaScript, jQuery, and Popper.js from CDNs -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Include your custom styles -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
 <body>
     <!-- Bootstrap Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Company</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -26,14 +29,36 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Products
                     </a>
-                    <div class="dropdown-menu horizontal-dropdown" aria-labelledby="productsDropdown">
-                        <a class="dropdown-item" href="products.html">Demo Text</a>
-                        <a class="dropdown-item" href="steel-furniture.html">Steel Furniture</a>
+                    <div class="dropdown-menu horizontal-dropdown" id="productDropdown"
+                        aria-labelledby="productsDropdown">
+                        <div class="left-section">
+                            <a class="dropdown-item dropdownHeading" href="products.html" >Demo 1</a>
+                            <div class="dropdown-menu-sub">
+                                <a class="dropdown-item" href="#">Option 1</a>
+                                <a class="dropdown-item" href="#">Option 2</a>
+                                <a class="dropdown-item" href="#">Option 3</a>
+                                <a class="dropdown-item" href="#">Option 4</a>
+                                <a class="dropdown-item" href="#">Option 5</a>
+                            </div>
+                        </div>
+
+                        <div class="right-section">
+                            <a class="dropdown-item dropdownHeading" href="steel-furniture.html">Demo 2</a>
+                            <div class="dropdown-menu-sub">
+                                <a class="dropdown-item" href="#">Option A</a>
+                                <a class="dropdown-item" href="#">Option B</a>
+                                <a class="dropdown-item" href="#">Option C</a>
+                                <a class="dropdown-item" href="#">Option D</a>
+                                <a class="dropdown-item" href="#">Option E</a>
+                            </div>
+                        </div>
                     </div>
                 </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
@@ -42,9 +67,20 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container mt-4">
+    <div>
         <h1>Welcome to Your Website</h1>
+        <div>
+            <h3 class="test" id="product1">Product 1</h3>
+        </div>
+        <div>
+            <h3 class="test" id="product2">Product 2</h3>
+        </div>
+        <div>
+            <h3 class="test" id="product3">Product 3</h3>
+        </div>
+                
         <p>This is the homepage of your website.</p>
+        
     </div>
 
     <!-- Footer -->
@@ -55,4 +91,5 @@
     <!-- JavaScript dependencies (if needed, same as index.html) -->
     <script src="js/script.js"></script>
 </body>
+
 </html>

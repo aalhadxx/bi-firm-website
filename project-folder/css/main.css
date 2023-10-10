@@ -1,0 +1,25 @@
+.dropdown-menu.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.dropdown-menu.show:div {
+  margin: 1rem;
+}
+
+.left-section, .right-section {
+  border: 2px solid green;
+  padding: 1rem;
+}
+
+.dropdownHeading {
+  padding-left: 0px;
+}
+
+.test {
+  height: 64rem;
+}
+
+* {
+  margin: 0 !important;
+}

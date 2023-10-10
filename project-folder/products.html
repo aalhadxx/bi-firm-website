@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Products - Your Website</title>
-    <link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Your Website</title>
+<!-- Include Bootstrap CSS from a Content Delivery Network (CDN) -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- Include Bootstrap JavaScript, jQuery, and Popper.js from CDNs -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Include your custom styles -->
+<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- Bootstrap Navbar (same as index.html) -->
@@ -14,6 +21,40 @@
         <h1>Products</h1>
         <p>This is the products page. You can replace this text with your product listings and details.</p>
     </div>
+<!-- Main Content -->
+<div class="container mt-4">
+    <h1 class="test">Welcome to Your E-commerce Website</h1>
+    <p>Explore our products below:</p>
+
+    <!-- Product Cards -->
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="product1.jpg" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                    <h5 class="card-title">Product 1</h5>
+                    <p class="card-text">Description of Product 1.</p>
+                    <p class="card-text">$19.99</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="product2.jpg" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                    <h5 class="card-title">Product 2</h5>
+                    <p class="card-text">Description of Product 2.</p>
+                    <p class="card-text">$24.99</p>
+                    <a href="#" class="btn btn-primary">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add more product cards here -->
+    </div>
+</div>
 
     <!-- Footer (same as index.html) -->
 
